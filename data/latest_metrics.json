@@ -1,0 +1,7 @@
+{
+    "rx_packets": 150000,
+    "tx_packets": 149800,
+    "packet_drops": 5,
+    "latency": 0.12
+}
+
