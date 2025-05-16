@@ -6,24 +6,23 @@ This project demonstrates how to use machine learning for traffic forecasting an
 
 ## Project Structure
 
-nfv-ml-demo/
-│
-├── README.md
-├── data/
-│   └── (raw and processed metrics)
-├── trex_profiles/
-│   └── (TRex traffic generation scripts)
-├── testpmd_metrics/
-│   └── (Scripts to collect and export testPMD metrics)
-├── ml/
-│   ├── train_model.py
-│   ├── model.pkl
-│   └── inference_server.py
-├── deployment/
-│   └── (Deployment scripts for ML model API)
-├── requirements.txt
-└── utils/
-    └── (Helper scripts, e.g., for data preprocessing)
+
+- **data/**: Directory for storing raw and processed metrics data.
+
+- **trex_profiles/**: Contains TRex traffic generation scripts.
+
+- **testpmd_metrics/**: Includes scripts to collect and export testPMD metrics.
+
+- **ml/**: Contains machine learning related files:
+  - `train_model.py`: Script to train the machine learning model.
+  - `model.pkl`: Serialized trained model.
+  - `inference_server.py`: Script to serve the model for inference.
+
+- **deployment/**: Contains scripts and configurations for deploying the ML model as an API.
+
+- **requirements.txt**: Lists all Python dependencies required for the project.
+
+- **utils/**: Contains helper scripts, such as those for data preprocessing.
 
 ---
 
